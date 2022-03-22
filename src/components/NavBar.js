@@ -1,8 +1,10 @@
 const NavBar = () => {
   return (
     <nav>
-      <button>boton1</button>
-      <button>boton2</button>
+      <h2>TECNOSHOP</h2>
+      <button>PRODUCTOS</button>
+      <button>CONTACTO</button>
+      <button>OFERTAS</button>
     </nav>
   );
 };
