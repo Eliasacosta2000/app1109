@@ -13,13 +13,12 @@ const ItemCount = ({ initial = 0, stock, onAdd }) => {
     setCount(count - 1);
   };
 
-  console.log("2 Se va a montar en pantalla el componente");
   return (
     <div>
       <button onClick={decrement}>-</button>
       <p>{count}</p>
       <button onClick={increment}>+</button>
-      <button onClick={onAdd(count)}>Agregar al carrito</button>
+      <button onClick={() => onAdd(count)}>Agregar al carrito</button>
     </div>
   );
 };
