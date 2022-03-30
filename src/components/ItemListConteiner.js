@@ -10,7 +10,6 @@ const ItemListContainer = ({ greeting }) => {
       setProducts(response);
     });
   }, []);
-
   console.log(products);
 
   return (
